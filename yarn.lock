@@ -3046,6 +3046,12 @@ react-relay@^0.10.0:
     fbjs "^0.8.1"
     react-static-container "^1.0.1"
 
+react-router-native@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-4.0.0.tgz#c93df4fc7dbca8cadf245b12d820fe1c51b8a7cb"
+  dependencies:
+    react-router "^4.0.0"
+
 react-router@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.0.0.tgz#6532075231f0bb5077c2005c1d417ad6165b3997"
