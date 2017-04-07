@@ -42,24 +42,20 @@ class BillsView extends Component {
     const { query } = this.state
     const bills = unwrap(this.props.viewer.bills)
     const hasNextPage = bills.pageInfo && bills.pageInfo.hasNextPage
-    console.log("BillsView");
 
-    return (
-    <View style={styles.container}>
+    return <View style={styles.container}>
       <SearchField style={styles.searchField} value={query} onChange={this.searchFieldDidChange} />
       /*{bills.nodes.map((bill, i) => {
         return (<BillCell key={bill.id} bill={bill} isLast={i === bills.nodes.length - 1} />);
       })}*/
       <LoadMoreButton style={styles.loadMoreButton} hasMore={hasNextPage} onClick={this.didClickLoadMore} />
     </View>
-    );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-    flexDirection: 'column',
+    flex: 1,
     alignItems: 'stretch'
   },
   searchField: {

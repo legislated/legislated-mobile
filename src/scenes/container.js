@@ -9,24 +9,15 @@ export default class Container extends Component {
   }
 
   render () {
-    console.log("container");
-   return (
-    <View style={styles.container}>
-      <View style={styles.inner}>
-        <Text>Yeah!</Text>
-           <AppRouter/>
-      </View>
+    return <View style={styles.container}>
+      <AppRouter />
     </View>
-    );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    //...fonts.regular,
-    height: 100
-  },
-  inner: {
+    flex: 1,
     padding: 30
   }
 })
