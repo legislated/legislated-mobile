@@ -9,7 +9,9 @@
     "test:watch": "jest --watch",
     "ios": "yarn ios:run:dev",
     "ios:run:dev": "react-native run-ios --scheme Legislated",
-    "ios:log": "react-native log-ios"
+    "ios:log": "react-native log-ios",
+    "lint": "standard | snazzy",
+    "lint:fix": "standard --fix | snazzy"
   },
   "dependencies": {
     "react": "16.0.0-alpha.6",
@@ -18,12 +20,29 @@
     "react-router-native": "^4.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.1",
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
     "babel-relay-plugin": "0.10.0",
-    "jest": "19.0.2"
+    "eslint": "^3.19.0",
+    "eslint-plugin-flowtype": "^2.30.4",
+    "jest": "19.0.2",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.1"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ],
+    "ignore": [
+      "flow-typed"
+    ],
+    "globals": [
+      "React$Element"
+    ]
   }
 }

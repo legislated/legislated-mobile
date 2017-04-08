@@ -2,6 +2,8 @@
 import React, { Component } from 'react'
 import Relay from 'react-relay'
 import { StyleSheet, Text } from 'react-native'
+import type { Viewer, RelayProp } from '../../types'
+
 // import { throttle } from 'lodash'
 // import { StyleSheet, View } from 'react-native';
 // import moment from 'moment'
