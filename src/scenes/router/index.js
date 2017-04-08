@@ -1,13 +1,14 @@
 // @flow
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
-import { Route, MemoryRouter as Router } from 'react-router'
-import { BillsView } from '../bills'
+import { MemoryRouter as Router } from 'react-router'
+import { RelayRoute } from './relay_route'
+import { billsRoute } from '../bills'
 
 export const AppRouter = () => (
   <Router>
     <View className={styles.container}>
-      <Route exactly pattern='/' component={BillsView} />
+      <RelayRoute exactly pattern='/' {...billsRoute} />
     </View>
   </Router>
 )

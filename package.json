@@ -11,9 +11,12 @@
     "ios:run:dev": "react-native run-ios --scheme Legislated",
     "ios:log": "react-native log-ios",
     "lint": "standard | snazzy",
-    "lint:fix": "standard --fix | snazzy"
+    "lint:fix": "standard --fix | snazzy",
+    "flow:restart": "flow stop && flow",
+    "validate": "yarn lint && yarn flow && yarn test"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "16.0.0-alpha.6",
     "react-native": "^0.43.2",
     "react-relay": "^0.10.0",
@@ -30,6 +33,13 @@
     "jest": "19.0.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.1"
+  },
+  "babel": {
+    "passPerPreset": true,
+    "presets": [
+      {"plugins": ["./plugins/babel_relay_plugin"]},
+      "react-native"
+    ]
   },
   "jest": {
     "preset": "react-native"

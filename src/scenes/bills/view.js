@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   // }
 })
 
-export default Relay.createContainer(BillsView, {
+export const BillsContainer = Relay.createContainer(BillsView, {
   // initialVariables: {
   //   first: pageSize,
   //   query: '',
