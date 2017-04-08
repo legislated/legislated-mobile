@@ -9,9 +9,8 @@ type Config = {|
 export function loadConfig () {
   const configs: { [key: string]: Config } = {
     development: {
-      /*graphUrl: 'http://localhost:5000/graphql'*/
-      graphUrl: 'https://witness-slips.herokuapp.com/graphql'
-   },
+      graphUrl: 'http://localhost:5000/graphql'
+    },
     staging: {
       graphUrl: 'https://witness-slips.herokuapp.com/graphql'
     },

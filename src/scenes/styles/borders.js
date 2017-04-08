@@ -7,7 +7,7 @@ type BorderStyle = {|
 
 function make (color: string): BorderStyle {
   return {
-    //border: `1px solid ${color}`
+    border: `1px solid ${color}`
   }
 }
 

@@ -1,8 +1,8 @@
 // @flow
 import React, { Component } from 'react'
-import { fonts } from './styles'
+import { StyleSheet, View } from 'react-native'
 import { AppRouter } from './router'
-import { StyleSheet, Text, View } from 'react-native';
+
 export default class Container extends Component {
   props: {
     children?: any
