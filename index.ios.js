@@ -1,24 +1,11 @@
-/**
- * Legislated React Native App
- * https://github.com/legislated/legislated-mobile
- * @flow
- */
-
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import { Container } from './src/scenes';
+import React, { Component } from 'react'
+import { AppRegistry } from 'react-native'
+import { App } from './src/app'
 
 export default class Legislated extends Component {
-  render() {
-    return (
-      <Container />
-    );
+  render () {
+    return <App />
   }
 }
 
-AppRegistry.registerComponent('Legislated', () => Legislated);
+AppRegistry.registerComponent('Legislated', () => Legislated)

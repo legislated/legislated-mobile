@@ -8,10 +8,10 @@ const fontFamily = 'Nunito, sans-serif'
 export const fonts: { [key: string]: FontFace } = {
   regular: {
     fontFamily,
-    fontWeight: "400"
+    fontWeight: '400'
   },
   bold: {
     fontFamily,
-    fontWeight: "700"
+    fontWeight: '700'
   }
 }

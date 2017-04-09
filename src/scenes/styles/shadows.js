@@ -3,13 +3,13 @@ import { colors } from './colors'
 
 type ShadowStyle = {|
   borderRadius: number/*,
-  boxShadow: string*/
+  boxShadow: string */
 |}
 
 function make (color: string, height: number): ShadowStyle {
   return {
     borderRadius: height/*,
-    boxShadow: `${color} 0 ${height}px 0 0`*/
+    boxShadow: `${color} 0 ${height}px 0 0` */
   }
 }
 
