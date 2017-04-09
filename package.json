@@ -8,8 +8,12 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "ios": "yarn ios:run:dev",
-    "ios:run:dev": "react-native run-ios --scheme Legislated",
+    "ios:xcode": "open ios/Legislated.xcodeproj",
     "ios:log": "react-native log-ios",
+    "ios:run:dev": "react-native run-ios --scheme Legislated",
+    "android": "yarn android:run:dev",
+    "android:log": "react-native log-android",
+    "android:run:dev": "react-native run-android",
     "lint": "standard | snazzy",
     "lint:fix": "standard --fix | snazzy",
     "flow:restart": "flow stop && flow",
@@ -25,8 +29,8 @@
   "devDependencies": {
     "babel-eslint": "^7.2.1",
     "babel-jest": "19.0.0",
+    "babel-plugin-react-relay": "^0.10.0",
     "babel-preset-react-native": "1.9.1",
-    "babel-relay-plugin": "0.10.0",
     "eslint": "^3.19.0",
     "eslint-plugin-flowtype": "^2.30.4",
     "flow-bin": "0.38.0",
@@ -34,11 +38,15 @@
     "snazzy": "^7.0.0",
     "standard": "^10.0.1"
   },
+  "graphql": {
+    "file": "./schema.json"
+  },
   "babel": {
-    "passPerPreset": true,
     "presets": [
-      {"plugins": ["./plugins/babel_relay_plugin"]},
       "react-native"
+    ],
+    "plugins": [
+      "react-relay"
     ]
   },
   "jest": {

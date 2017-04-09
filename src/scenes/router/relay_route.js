@@ -24,11 +24,12 @@ export class RelayRoute extends Component {
     const Renderer = () => {
       return <Relay.Renderer
         Container={Container}
-        queryConfig={{ name, queries }}
         environment={Relay.Store}
+      queryConfig={{ name, queries, params: {} }}
+        forceFetch={forceFetch}
         render={({ done, error, props, retry, stale }) => {
           if (error && retry) {
-            console.error('Relay.Error: ', error)
+            console.log('Relay.Error: ', error, props)
           } else if (props) {
             return <Container {...props} />
           } else {

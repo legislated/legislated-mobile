@@ -36,41 +36,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* LegislatedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LegislatedTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		BB8BA24F1E959C9C00EB9218 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2211E959C9C00EB9218 /* package.json */; };
-		BB8BA2501E959C9C00EB9218 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2221E959C9C00EB9218 /* app.json */; };
-		BB8BA2511E959C9C00EB9218 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2231E959C9C00EB9218 /* index.ios.js */; };
 		BB8BA2521E959C9C00EB9218 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB8BA2241E959C9C00EB9218 /* README.md */; };
-		BB8BA2531E959C9C00EB9218 /* config.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2261E959C9C00EB9218 /* config.js */; };
-		BB8BA2541E959C9C00EB9218 /* environment.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2281E959C9C00EB9218 /* environment.js */; };
-		BB8BA2551E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2291E959C9C00EB9218 /* index.js */; };
-		BB8BA2561E959C9C00EB9218 /* view.test.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA22D1E959C9C00EB9218 /* view.test.js */; };
-		BB8BA2571E959C9C00EB9218 /* bill_cell.test.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2301E959C9C00EB9218 /* bill_cell.test.js */; };
-		BB8BA2581E959C9C00EB9218 /* load_more_button.test.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2311E959C9C00EB9218 /* load_more_button.test.js */; };
-		BB8BA2591E959C9C00EB9218 /* search_field.test.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2321E959C9C00EB9218 /* search_field.test.js */; };
-		BB8BA25A1E959C9C00EB9218 /* bill_cell.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2331E959C9C00EB9218 /* bill_cell.js */; };
-		BB8BA25B1E959C9C00EB9218 /* load_more_button.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2341E959C9C00EB9218 /* load_more_button.js */; };
-		BB8BA25C1E959C9C00EB9218 /* search_field.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2351E959C9C00EB9218 /* search_field.js */; };
-		BB8BA25D1E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2361E959C9C00EB9218 /* index.js */; };
-		BB8BA25E1E959C9C00EB9218 /* queries.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2371E959C9C00EB9218 /* queries.js */; };
-		BB8BA25F1E959C9C00EB9218 /* view.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2381E959C9C00EB9218 /* view.js */; };
-		BB8BA2601E959C9C00EB9218 /* container.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2391E959C9C00EB9218 /* container.js */; };
-		BB8BA2611E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA23A1E959C9C00EB9218 /* index.js */; };
-		BB8BA2621E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA23C1E959C9C00EB9218 /* index.js */; };
-		BB8BA2631E959C9C00EB9218 /* not_found_view.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA23D1E959C9C00EB9218 /* not_found_view.js */; };
-		BB8BA2641E959C9C00EB9218 /* borders.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA23F1E959C9C00EB9218 /* borders.js */; };
-		BB8BA2651E959C9C00EB9218 /* colors.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2401E959C9C00EB9218 /* colors.js */; };
-		BB8BA2661E959C9C00EB9218 /* fonts.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2411E959C9C00EB9218 /* fonts.js */; };
-		BB8BA2671E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2421E959C9C00EB9218 /* index.js */; };
-		BB8BA2681E959C9C00EB9218 /* shadows.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2431E959C9C00EB9218 /* shadows.js */; };
-		BB8BA2691E959C9C00EB9218 /* connection.test.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2461E959C9C00EB9218 /* connection.test.js */; };
-		BB8BA26A1E959C9C00EB9218 /* bill.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2471E959C9C00EB9218 /* bill.js */; };
-		BB8BA26B1E959C9C00EB9218 /* connection.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2481E959C9C00EB9218 /* connection.js */; };
-		BB8BA26C1E959C9C00EB9218 /* edge.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA2491E959C9C00EB9218 /* edge.js */; };
-		BB8BA26D1E959C9C00EB9218 /* hearing.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA24A1E959C9C00EB9218 /* hearing.js */; };
-		BB8BA26E1E959C9C00EB9218 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA24B1E959C9C00EB9218 /* index.js */; };
-		BB8BA26F1E959C9C00EB9218 /* page_info.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA24C1E959C9C00EB9218 /* page_info.js */; };
-		BB8BA2701E959C9C00EB9218 /* relay_prop.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA24D1E959C9C00EB9218 /* relay_prop.js */; };
-		BB8BA2711E959C9C00EB9218 /* viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = BB8BA24E1E959C9C00EB9218 /* viewer.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1033,42 +999,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8BA2631E959C9C00EB9218 /* not_found_view.js in Resources */,
-				BB8BA25A1E959C9C00EB9218 /* bill_cell.js in Resources */,
-				BB8BA2531E959C9C00EB9218 /* config.js in Resources */,
-				BB8BA2701E959C9C00EB9218 /* relay_prop.js in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BB8BA26A1E959C9C00EB9218 /* bill.js in Resources */,
-				BB8BA25C1E959C9C00EB9218 /* search_field.js in Resources */,
-				BB8BA26E1E959C9C00EB9218 /* index.js in Resources */,
-				BB8BA2571E959C9C00EB9218 /* bill_cell.test.js in Resources */,
-				BB8BA2651E959C9C00EB9218 /* colors.js in Resources */,
-				BB8BA2691E959C9C00EB9218 /* connection.test.js in Resources */,
-				BB8BA2501E959C9C00EB9218 /* app.json in Resources */,
-				BB8BA2551E959C9C00EB9218 /* index.js in Resources */,
-				BB8BA2561E959C9C00EB9218 /* view.test.js in Resources */,
-				BB8BA2591E959C9C00EB9218 /* search_field.test.js in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				BB8BA24F1E959C9C00EB9218 /* package.json in Resources */,
-				BB8BA25D1E959C9C00EB9218 /* index.js in Resources */,
-				BB8BA26F1E959C9C00EB9218 /* page_info.js in Resources */,
-				BB8BA26B1E959C9C00EB9218 /* connection.js in Resources */,
-				BB8BA2511E959C9C00EB9218 /* index.ios.js in Resources */,
-				BB8BA2641E959C9C00EB9218 /* borders.js in Resources */,
-				BB8BA2711E959C9C00EB9218 /* viewer.js in Resources */,
-				BB8BA26D1E959C9C00EB9218 /* hearing.js in Resources */,
-				BB8BA25B1E959C9C00EB9218 /* load_more_button.js in Resources */,
-				BB8BA2581E959C9C00EB9218 /* load_more_button.test.js in Resources */,
-				BB8BA2611E959C9C00EB9218 /* index.js in Resources */,
-				BB8BA25F1E959C9C00EB9218 /* view.js in Resources */,
-				BB8BA2661E959C9C00EB9218 /* fonts.js in Resources */,
-				BB8BA2541E959C9C00EB9218 /* environment.js in Resources */,
-				BB8BA2621E959C9C00EB9218 /* index.js in Resources */,
-				BB8BA2601E959C9C00EB9218 /* container.js in Resources */,
-				BB8BA26C1E959C9C00EB9218 /* edge.js in Resources */,
-				BB8BA25E1E959C9C00EB9218 /* queries.js in Resources */,
-				BB8BA2681E959C9C00EB9218 /* shadows.js in Resources */,
-				BB8BA2671E959C9C00EB9218 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
