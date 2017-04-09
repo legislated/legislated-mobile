@@ -3,7 +3,7 @@ import React from 'react'
 import { View, StyleSheet } from 'react-native'
 import { MemoryRouter as Router } from 'react-router'
 import { RelayRoute } from './relay_route'
-import { billsRoute } from '../bills'
+import { billsRoute } from '../scenes'
 
 export const AppRouter = () => (
   <Router>

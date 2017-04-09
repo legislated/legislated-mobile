@@ -1,9 +1,13 @@
 // @flow
 import React, { Component } from 'react'
 import { StyleSheet, View } from 'react-native'
+import { createRelayEnvironment } from './relay'
 import { AppRouter } from './router'
 
-export default class Container extends Component {
+// bootstrap relay
+createRelayEnvironment()
+
+export class App extends Component {
   props: {
     children?: any
   }

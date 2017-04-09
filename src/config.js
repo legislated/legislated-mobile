@@ -19,15 +19,16 @@ export function loadConfig () {
     }
   }
 
-  const buildEnv = process.env.ENVIRONMENT
-  const env = buildEnv === 'development' ? debugEnv || buildEnv : buildEnv
+  // TODO: add a native module that allows us to specify build environment, maybe
+  // something like: https://github.com/luggit/react-native-config
+  const env = __DEV__ ? debugEnv || 'development' : 'production'
   if (!env) {
-    throw new Error('No environment specified!')
+    throw new Error('No build environment specified!')
   }
 
   const config = configs[env]
   if (!config) {
-    throw new Error(`No config for environment: ${env}!`)
+    throw new Error(`No config for build environment: ${env}!`)
   }
 
   return config

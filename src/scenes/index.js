@@ -1,2 +1,2 @@
 // @flow
-export { default as Container } from './container'
+export { billsRoute } from './bills'

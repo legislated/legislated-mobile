@@ -61,6 +61,7 @@
       "flow-typed"
     ],
     "globals": [
+      "__DEV__",
       "React$Element"
     ]
   }

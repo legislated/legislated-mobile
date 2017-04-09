@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
-import { Container } from './src/scenes'
+import { App } from './src/app'
 
 export default class Legislated extends Component {
   render () {
-    return <Container />
+    return <App />
   }
 }
 

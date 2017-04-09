@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import Relay from 'react-relay'
 import { StyleSheet, Text } from 'react-native'
+import { colors } from '../styles'
 import type { Viewer, RelayProp } from '../../types'
 
 // import { throttle } from 'lodash'
@@ -42,7 +43,9 @@ class BillsView extends Component {
 
   // lifecycle
   render () {
-    return <Text style={styles.text}>Hello, viewer {this.props.viewer}.</Text>
+    return <Text style={styles.text}>
+      {`Hello, viewer ${this.props.viewer.id}.`}
+    </Text>
 
     // const { query } = this.state
     // const bills = unwrap(this.props.viewer.bills)
@@ -60,7 +63,7 @@ class BillsView extends Component {
 
 const styles = StyleSheet.create({
   text: {
-    flex: 1
+    color: colors.black
   }
   // container: {
   //   flex: 1,

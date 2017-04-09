@@ -25,7 +25,7 @@ export class RelayRoute extends Component {
       return <Relay.Renderer
         Container={Container}
         environment={Relay.Store}
-      queryConfig={{ name, queries, params: {} }}
+        queryConfig={{ name, queries, params: {} }}
         forceFetch={forceFetch}
         render={({ done, error, props, retry, stale }) => {
           if (error && retry) {
